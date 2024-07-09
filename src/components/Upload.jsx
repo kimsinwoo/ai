@@ -132,7 +132,9 @@ export default function UpLoad() {
               <span>*</span>
             </div>
             <div className={style.upload_img_container}>
-              <label htmlFor="upload_img_select" className={style.upload_image_select}>
+              <label htmlFor="upload_img_select"
+               className={style.upload_image_select}
+               >
                 <span id="add_circle" className="material-symbols-outlined">
                   add_circle
                 </span>
@@ -148,7 +150,7 @@ export default function UpLoad() {
               {uploadPreview.length > 0 && (
                 <div className={style.preview_container}>
                   {uploadPreview.map((image, index) => (
-                    <img key={index} src={image} alt="preview" width={90} />
+                    <img key={index} src={image} alt="preview" style={{overflow:"hidden",}} width={90} height={100} />
                   ))}
                 </div>
               )}

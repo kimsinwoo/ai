@@ -20,12 +20,13 @@
 }
 .img_detail{
     width: 100%;
-    height: 220px;
+    height: 330px;
 }
 .img_title{
     display: flex;
 }
 .upload_image_select{
+    display: inline-block;
     border: solid 1px #565656;
     width: 150px;
     height: 180px;
@@ -113,4 +114,7 @@ textarea{
 .commit_button>button:active{
     background-color: #5183c3;
     box-shadow: -1px 1px 4px 1px #c0c0c0;
+}
+.preview_container {
+    margin: 12px 0 0 0;
 }
