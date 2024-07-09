@@ -23,6 +23,7 @@ const MainPage = () => {
 
     return (
         <div className={style.mainPage}>
+            <div className={style.product_container}>            
             {products.map(product => (
                 <div 
                     key={product.id} 
@@ -35,6 +36,7 @@ const MainPage = () => {
                     <p>Uploaded at: {new Date(product.createAt).toLocaleDateString()}</p>
                 </div>
             ))}
+            </div>
         </div>
     );
 };

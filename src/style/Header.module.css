@@ -13,6 +13,14 @@
 .Link {
     text-decoration: none;
     color: black;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
 }
 
 .search_container {
@@ -54,4 +62,37 @@
 }
 .NavBar>ul>li {
     margin: 0 20px;
+    box-sizing: border-box;
+    
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 300px; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+
+.search_input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.search_button .material-symbols-outlined {
+    font-size: 20px; /* Adjust the size as needed */
 }

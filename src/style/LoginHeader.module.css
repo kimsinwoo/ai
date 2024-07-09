@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .LoginHeader_component {
     display: flex;
@@ -19,4 +20,12 @@
 .Logout {
     border: none;
     background-color: transparent;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    
 }

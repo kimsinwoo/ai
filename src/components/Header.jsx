@@ -4,24 +4,25 @@ import { Link } from 'react-router-dom'
 const Header = ({ isLogin }) => {
     return (
         <div className={style.Header_component}>
-            <Link 
+            <Link
                 to="/"
                 style={{
-                    textDecoration:"none",
+                    textDecoration: "none",
                     color: "black",
                     fontSize: "20px"
-                }}    
+                }}
             >
                 <div className={style.Logo}>
                     9해요
                 </div>
             </Link>
             <div className={style.search_container}>
-                <input type="text" />
-                <button>
-                    <span class="material-symbols-outlined">search</span>
+                <input type="text" className={style.search_input} />
+                <button className={style.search_button}>
+                    <span className="material-symbols-outlined">search</span>
                 </button>
             </div>
+
             <div className={style.NavBar}>
                 <ul>
                     <li>

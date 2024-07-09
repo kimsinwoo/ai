@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .product {
@@ -11,6 +14,7 @@
     padding: 20px;
     cursor: pointer;
     transition: box-shadow 0.3s ease-in-out;
+    width: 200px;
 }
 
 .product:hover {
@@ -30,3 +34,13 @@
 .product p {
     margin: 5px 0;
 }
+
+.product_container {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+}
+
