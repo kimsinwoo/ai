@@ -1,0 +1,31 @@
+.productDetail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.studentInfo {
+    margin-top: 20px;
+}
+
+.chatButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.chatButton:hover {
+    background-color: #0056b3;
+}

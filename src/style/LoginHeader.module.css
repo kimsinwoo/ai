@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.LoginHeader_component {
+    display: flex;
+    justify-content: end;
+    height: 2rem;
+    width: 100%;
+}
+.Login_Link{
+    margin: auto 20px;
+}
+.Link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.Logout {
+    border: none;
+    background-color: transparent;
+}

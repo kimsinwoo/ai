@@ -1,0 +1,116 @@
+.upload_container{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.name_tag_box{
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+}
+.name_tag_box>span{
+    color: #565656;
+}
+.upload_detail{
+    width: 100%;
+    height: 100%;
+}
+.img_detail{
+    width: 100%;
+    height: 220px;
+}
+.img_title{
+    display: flex;
+}
+.upload_image_select{
+    border: solid 1px #565656;
+    width: 150px;
+    height: 180px;
+    cursor: pointer;
+}
+.upload_image_select:hover{
+    border: solid 1px #848490;
+}
+.upload_image_select>span{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+}
+.tit_detail{
+    width: 100%;
+    height: 80px;
+}
+.tit_title{
+    display: flex;
+}
+.pep_detail{
+    width: 100%;
+    height: 80px;
+}
+.pep_title{
+    display: flex;
+}
+.pep_input_box{
+    display: flex;
+}
+.pep_input_box>input{
+    width: 50px;
+    height: 30px;
+}
+.price_detail{
+    width: 100%;
+    height: 80px;
+}
+.price_title{
+    display: flex;
+}
+.detail_detail{
+    width: 100%;
+    height: 200px;
+}
+.detail_title{
+    display: flex;
+}
+textarea{
+    resize: none;
+}
+.category_detail{
+    width: 100%;
+    height: 80px;
+}
+.category_title{
+    display: flex;
+}
+.radio_button{
+    display: flex;
+}
+.with_buy{
+    margin: 0 0 0 0;
+}
+.used_buy{
+    margin: 0 0 0 20px;
+}
+.commit_button{
+    justify-content: right;
+    display: flex;
+    margin: 20px 20px 20px 0;
+}
+.commit_button>button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #65a3f3;
+    color: white;
+    font-weight: 900;
+    box-shadow: -2px 3px 4px 1px #c0c0c0;
+}
+.commit_button>button:active{
+    background-color: #5183c3;
+    box-shadow: -1px 1px 4px 1px #c0c0c0;
+}
